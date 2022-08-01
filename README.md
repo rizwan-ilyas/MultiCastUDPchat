@@ -4,7 +4,9 @@
 "Lets Talks" is a simple Multi-threaded Application for a group chat written in core java.
 Its implementation is done using MultiCast Sockets and swing for Ghraphical User Interface.
 
-The code is trivial, but there is one interesting detail to note. As it is Muli-threaded, so for communication between many group users you need to run one server and many clients users on different threads at a time.
+The code is trivial, but there are two interesting detail to note. 
+- As it is Muli-threaded, so for communication between many group users you need to run one server and many clients users on different threads at a time.
+- To communicate the user must need to enter IP Address 234.235.236.237 and port# 12540.
 
 
 ## Authors
